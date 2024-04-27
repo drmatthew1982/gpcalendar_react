@@ -19,13 +19,13 @@ function App() {
                   </Container>
               </Grid>
               <Router>
-                  <Grid xs={3}>
+                  <Grid xs={2}>
                       <Container maxWidth="sm">
                           <Menu></Menu>
                       </Container>
                   </Grid>
-                  <Grid xs={9}>
-                      <Container maxWidth="sm">
+                  <Grid xs={10}>
+                      <Container maxWidth="xl">
                           <Routes>
                               <Route path="/myorg" element={<OrganisationTable />} />
                               <Route path="/client" element={<ClientTable />} />
